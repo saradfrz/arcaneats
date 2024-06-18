@@ -1,0 +1,253 @@
+<mxfile host="app.diagrams.net" modified="2024-06-09T21:29:39.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.5.2" etag="z6R5qNVl-0o-16zmgZiB" type="google">
+  <diagram name="Database Diagram" id="0">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="food_items" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;rounded=0;labelPosition=center;verticalAlign=middle;align=center;container=1;fillColor=#f2bfd9;strokeColor=#CC0066;fontColor=#660033;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="309" y="309" width="200" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="id: SERIAL PK" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="2">
+          <mxGeometry y="20" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="calories: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="2">
+          <mxGeometry y="46" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="serving_size: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="2">
+          <mxGeometry y="72" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="carbohydrates" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;rounded=0;labelPosition=center;verticalAlign=middle;align=center;container=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="54" y="42" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="id: SERIAL FK" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;fontColor=#333333;" vertex="1" parent="9">
+          <mxGeometry y="20" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="carbohydrates: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="9">
+          <mxGeometry y="46" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="sugars: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="9">
+          <mxGeometry y="72" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="fiber: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="9">
+          <mxGeometry y="98" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="fructose: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="9">
+          <mxGeometry y="124" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="galactose: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="9">
+          <mxGeometry y="150" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="glucose: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="9">
+          <mxGeometry y="176" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="lactose: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="9">
+          <mxGeometry y="202" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="maltose: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="9">
+          <mxGeometry y="228" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="sucrose: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="9">
+          <mxGeometry y="254" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="fats" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;rounded=0;labelPosition=center;verticalAlign=middle;align=center;container=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="309" y="42" width="200" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="id: SERIAL FK" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;fontColor=#333333;" vertex="1" parent="20">
+          <mxGeometry y="20" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="monounsaturated_fat: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="20">
+          <mxGeometry y="46" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="polyunsaturated_fat: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="20">
+          <mxGeometry y="72" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="saturated_fat: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="20">
+          <mxGeometry y="98" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="total_fat: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="20">
+          <mxGeometry y="124" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="trans_fat: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="20">
+          <mxGeometry y="150" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="cholesterol: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="20">
+          <mxGeometry y="176" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="minerals" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;rounded=0;labelPosition=center;verticalAlign=middle;align=center;container=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="309" y="457" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="id: SERIAL FK" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;fontColor=#333333;" vertex="1" parent="28">
+          <mxGeometry y="20" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="calcium: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="28">
+          <mxGeometry y="46" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="copper: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="28">
+          <mxGeometry y="72" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="iron: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="28">
+          <mxGeometry y="98" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="magnesium: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="28">
+          <mxGeometry y="124" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="manganese: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="28">
+          <mxGeometry y="150" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="phosphorus: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="28">
+          <mxGeometry y="176" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="potassium: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="28">
+          <mxGeometry y="202" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="selenium: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="28">
+          <mxGeometry y="228" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dfhlAxGDN4Nk2ZnaznV3-104" value="sodium: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="28">
+          <mxGeometry y="254" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="72" value="vitamins" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;rounded=0;labelPosition=center;verticalAlign=middle;align=center;container=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="54" y="359" width="200" height="514" as="geometry" />
+        </mxCell>
+        <mxCell id="73" value="id: SERIAL FK" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;fontColor=#333333;" vertex="1" parent="72">
+          <mxGeometry y="20" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="74" value="carotene_alpha: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="46" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="75" value=" carotene_beta: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft  =4;" vertex="1" parent="72">
+          <mxGeometry y="72" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="76" value="choline: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="98" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="77" value="cryptoxanthin: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="124" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="78" value="folate: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="150" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="79" value="niacin: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="176" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="80" value="retinol: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="202" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="81" value="riboflavin: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="228" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="82" value="thiamin: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="254" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="83" value="lutein_zeaxanthin: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="280" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="84" value="vitamin_a_rae: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="306" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="85" value="vitamin_b12: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="332" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="86" value="vitamin_b6: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="358" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="87" value="vitamin_c: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="384" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="88" value="vitamin_d: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="410" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="89" value="vitamin_e: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="436" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90" value="vitamin_k: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="462" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="91" value="vitamin_k1_dihydro: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="72">
+          <mxGeometry y="488" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dfhlAxGDN4Nk2ZnaznV3-92" value="food_names" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;rounded=0;labelPosition=center;verticalAlign=middle;align=center;container=1;fillColor=#e1d5e7;strokeColor=#9673a6;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="563" y="42" width="200" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="dfhlAxGDN4Nk2ZnaznV3-93" value="id: SERIAL FK" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;fontColor=#333333;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-92">
+          <mxGeometry y="20" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dfhlAxGDN4Nk2ZnaznV3-95" value="name_en: TEXT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-92">
+          <mxGeometry y="46" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dfhlAxGDN4Nk2ZnaznV3-96" value="name_es: TEXT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-92">
+          <mxGeometry y="72" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dfhlAxGDN4Nk2ZnaznV3-97" value="name_pt: TEXT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-92">
+          <mxGeometry y="98" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dfhlAxGDN4Nk2ZnaznV3-99" value="protein" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;rounded=0;labelPosition=center;verticalAlign=middle;align=center;container=1;fillColor=#e1d5e7;strokeColor=#9673a6;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="563" y="210" width="200" height="566" as="geometry" />
+        </mxCell>
+        <mxCell id="dfhlAxGDN4Nk2ZnaznV3-100" value="id: SERIAL FK" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;fontColor=#333333;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="20" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="52" value="alanine: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="46" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="71" value="valine: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="72" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="70" value="tyrosine: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="98" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="69" value="tryptophan: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="124" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="68" value="threonine: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="150" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="67" value="serine: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="176" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="66" value="protein: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="202" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="65" value="proline: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="228" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="64" value="phenylalanine: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="254" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="63" value="methionine: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="280" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62" value="lysine: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="306" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="61" value="leucine: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="332" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="60" value="isoleucine: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="358" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="59" value="hydroxyproline: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="384" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="58" value="histidine: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="410" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="57" value="glycine: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="436" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="56" value="glutamic_acid: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="462" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="55" value="cystine: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="488" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="54" value="aspartic_acid: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="514" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="53" value="arginine: INTEGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="dfhlAxGDN4Nk2ZnaznV3-99">
+          <mxGeometry y="540" width="200" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

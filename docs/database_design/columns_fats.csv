@@ -1,0 +1,7 @@
+column_name,name_in_english,name_in_portuguese,name_in_spanish,data_type,nutrient_type
+total_fat,Total Fat,Gordura Total,Grasa Total,INTEGER,Fats
+saturated_fat,Saturated Fat,Gordura Saturada,Grasa Saturada,INTEGER,Fats
+monounsaturated_fat,Monounsaturated Fat,Gordura Monoinsaturada,Grasa Monoinsaturada,INTEGER,Fats
+polyunsaturated_fat,Polyunsaturated Fat,Gordura Poliinsaturada,Grasa Poliinsaturada,INTEGER,Fats
+trans_fat,Trans Fat,Gordura Trans,Grasa Trans,INTEGER,Fats
+cholesterol,Cholesterol,Colesterol,Colesterol,INTEGER,Fats

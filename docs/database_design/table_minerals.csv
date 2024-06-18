@@ -1,0 +1,12 @@
+column_name,data_type
+id,SERIAL,FK
+calcium,INTEGER,
+copper,INTEGER,
+iron,INTEGER,
+magnesium,INTEGER,
+manganese,INTEGER,
+phosphorus,INTEGER,
+potassium,INTEGER,
+selenium,INTEGER,
+sodium,INTEGER,
+zinc,INTEGER,

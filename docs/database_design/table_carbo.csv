@@ -1,0 +1,11 @@
+column_name,data_type
+id,SERIAL,FK
+carbohydrates,INTEGER,
+fiber,INTEGER,
+fructose,INTEGER,
+galactose,INTEGER,
+glucose,INTEGER,
+lactose,INTEGER,
+maltose,INTEGER,
+sucrose,INTEGER,
+sugars,INTEGER,

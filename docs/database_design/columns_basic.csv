@@ -1,0 +1,7 @@
+column_name,name_in_english,name_in_portuguese,name_in_spanish,data_type,nutrient_type
+id,ID,ID,ID,SERIAL,Basic
+name_en,Name,Nome,Nombre,TEXT,Basic
+name_pt,Name,Nome,Nombre,TEXT,Basic
+name_es,Name,Nome,Nombre,TEXT,Basic
+serving_size,Serving Size,Tamanho da Porção,Tamaño de la Porción,INTEGER,Basic
+calories,Calories,Calorias,Calorías,INTEGER,Basic

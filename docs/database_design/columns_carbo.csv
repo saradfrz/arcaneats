@@ -1,0 +1,10 @@
+column_name,name_in_english,name_in_portuguese,name_in_spanish,data_type,nutrient_type
+carbohydrates,Carbohydrates,Carboidratos,Carbohidratos,INTEGER,Carbohydrates
+sugars,Sugar,Açúcar,Azúcar,INTEGER,Carbohydrates
+fiber,Fiber,Fibra,Fibra,INTEGER,Carbohydrates
+fructose,Fructose,Frutose,Fructosa,INTEGER,Carbohydrates
+galactose,Galactose,Galactose,Galactosa,INTEGER,Carbohydrates
+glucose,Glucose,Glicose,Glucosa,INTEGER,Carbohydrates
+lactose,Lactose,Lactose,Lactosa,INTEGER,Carbohydrates
+maltose,Maltose,Maltose,Maltosa,INTEGER,Carbohydrates
+sucrose,Sucrose,Sacarose,Sacarosa,INTEGER,Carbohydrates

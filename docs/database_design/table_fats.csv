@@ -1,0 +1,8 @@
+column_name,data_type
+id,SERIAL,FK
+monounsaturated_fat,INTEGER,
+polyunsaturated_fat,INTEGER,
+saturated_fat,INTEGER,
+total_fat,INTEGER,
+trans_fat,INTEGER,
+cholesterol,INTEGER,

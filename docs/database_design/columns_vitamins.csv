@@ -1,0 +1,22 @@
+column_name,name_in_english,name_in_portuguese,name_in_spanish,data_type,nutrient_type
+choline,Choline,Colina,Colina,INTEGER,Vitamins
+folate,Folate,Ácido Fólico,Ácido Fólico,INTEGER,Vitamins
+folic_acid,Folic Acid,Ácido Fólico,Ácido Fólico,INTEGER,Vitamins
+niacin,Niacin,Niacina,Niacina,INTEGER,Vitamins
+pantothenic_acid,Pantothenic Acid,Ácido Pantotênico,Ácido Pantoténico,INTEGER,Vitamins
+riboflavin,Riboflavin,Riboflavina,Riboflavina,INTEGER,Vitamins
+thiamin,Thiamin,Tiamina,Tiamina,INTEGER,Vitamins
+vitamin_a,Vitamin A,Vitamina A,Vitamina A,INTEGER,Vitamins
+vitamin_a_rae,Vitamin A (RAE),Vitamina A (RAE),Vitamina A (RAE),INTEGER,Vitamins
+carotene_alpha,Carotene (Alpha),Caroteno (Alfa),Caroteno (Alfa),INTEGER,Vitamins
+carotene_beta,Carotene (Beta),Caroteno (Beta),Caroteno (Beta),INTEGER,Vitamins
+cryptoxanthin_beta,Cryptoxanthin (Beta),Criptoxantina (Beta),Criptoxantina (Beta),INTEGER,Vitamins
+lutein_zeaxanthin,Lutein + Zeaxanthin,Luteína + Zeaxantina,Luteína + Zeaxantina,INTEGER,Vitamins
+lycopene,Lycopene,Licopeno,Licopeno,INTEGER,Vitamins
+vitamin_b12,Vitamin B12,Vitamina B12,Vitamina B12,INTEGER,Vitamins
+vitamin_b6,Vitamin B6,Vitamina B6,Vitamina B6,INTEGER,Vitamins
+vitamin_c,Vitamin C,Vitamina C,Vitamina C,INTEGER,Vitamins
+vitamin_d,Vitamin D,Vitamina D,Vitamina D,INTEGER,Vitamins
+vitamin_e,Vitamin E,Vitamina E,Vitamina E,INTEGER,Vitamins
+tocopherol_alpha,Tocopherol (Alpha),Tocoferol (Alfa),Tocoferol (Alfa),INTEGER,Vitamins
+vitamin_k,Vitamin K,Vitamina K,Vitamina K,INTEGER,Vitamins

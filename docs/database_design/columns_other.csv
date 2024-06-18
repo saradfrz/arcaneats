@@ -1,0 +1,10 @@
+column_name,name_in_english,name_in_portuguese,name_in_spanish,data_type,nutrient_type
+alcohol,Alcohol,Álcool,Alcohol,INTEGER,Other
+ash,Ash,Cinza,Ceniza,INTEGER,Other
+caffeine,Caffeine,Cafeína,Cafeína,INTEGER,Other
+theobromine,Theobromine,Teobromina,Teobromina,INTEGER,Other
+water,Water,Água,Agua,INTEGER,Other
+taurine,Taurine,Taurina,Taurina,INTEGER,Other
+caffeine,Caffeine,Cafeína,Cafeína,INTEGER,Other
+glucuronolactone,Glucuronolactone,Glucuronolactona,Glucuronolactona,INTEGER,Other
+inositol,Inositol,Inositol,Inositol,INTEGER,Other

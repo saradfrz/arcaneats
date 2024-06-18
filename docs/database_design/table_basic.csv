@@ -1,0 +1,7 @@
+column_name,data_type
+id,SERIAL,PK
+calories,INTEGER,
+name_en,TEXT,
+name_es,TEXT,
+name_pt,TEXT,
+serving_size,INTEGER,

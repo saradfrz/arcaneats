@@ -1,0 +1,21 @@
+column_name,name_in_english,name_in_portuguese,name_in_spanish,data_type,nutrient_type
+protein,Protein,Proteína,Proteína,INTEGER,Protein
+alanine,Alanine,Alanina,Alanina,INTEGER,Protein
+arginine,Arginine,Arginina,Arginina,INTEGER,Protein
+aspartic_acid,Aspartic Acid,Ácido Aspártico,Ácido Aspártico,INTEGER,Protein
+cystine,Cystine,Cistina,Cistina,INTEGER,Protein
+glutamic_acid,Glutamic Acid,Ácido Glutâmico,Ácido Glutámico,INTEGER,Protein
+glycine,Glycine,Glicina,Glicina,INTEGER,Protein
+histidine,Histidine,Histidina,Histidina,INTEGER,Protein
+hydroxyproline,Hydroxyproline,Hidroxiprolina,Hidroxiprolina,INTEGER,Protein
+isoleucine,Isoleucine,Isoleucina,Isoleucina,INTEGER,Protein
+leucine,Leucine,Leucina,Leucina,INTEGER,Protein
+lysine,Lysine,Lisina,Lisina,INTEGER,Protein
+methionine,Methionine,Metionina,Metionina,INTEGER,Protein
+phenylalanine,Phenylalanine,Fenilalanina,Fenilalanina,INTEGER,Protein
+proline,Proline,Prolina,Prolina,INTEGER,Protein
+serine,Serine,Serina,Serina,INTEGER,Protein
+threonine,Threonine,Treonina,Treonina,INTEGER,Protein
+tryptophan,Tryptophan,Triptofano,Triptófano,INTEGER,Protein
+tyrosine,Tyrosine,Tirosina,Tirosina,INTEGER,Protein
+valine,Valine,Valina,Valina,INTEGER,Protein

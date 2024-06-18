@@ -1,0 +1,11 @@
+column_name,data_type
+id,SERIAL,FK
+alcohol,INTEGER,
+ash,INTEGER,
+caffeine,INTEGER,
+caffeine,INTEGER,
+glucuronolactone,INTEGER,
+inositol,INTEGER,
+taurine,INTEGER,
+theobromine,INTEGER,
+water,INTEGER,

@@ -1,0 +1,15 @@
+column_name,name_in_english,name_in_portuguese,name_in_spanish,data_type,nutrient_type
+sodium,Sodium,Sódio,Sodio,INTEGER,Minerals
+potassium,Potassium,Potássio,Potasio,INTEGER,Minerals
+calcium,Calcium,Cálcio,Calcio,INTEGER,Minerals
+iron,Iron,Ferro,Hierro,INTEGER,Minerals
+zinc,Zinc,Zinco,Zinc,INTEGER,Minerals
+calcium,Calcium,Cálcio,Calcio,INTEGER,Minerals
+copper,Copper,Cobre,Cobre,INTEGER,Minerals
+iron,Iron,Ferro,Hierro,INTEGER,Minerals
+magnesium,Magnesium,Magnésio,Magnesio,INTEGER,Minerals
+manganese,Manganese,Manganês,Manganeso,INTEGER,Minerals
+phosphorus,Phosphorus,Fósforo,Fósforo,INTEGER,Minerals
+potassium,Potassium,Potássio,Potasio,INTEGER,Minerals
+selenium,Selenium,Selênio,Selenio,INTEGER,Minerals
+zinc,Zinc,Zinco,Zinc,INTEGER,Minerals
