@@ -1,6 +1,5 @@
 # Arcaneats
-Well being that feels like magic
-
+Feel the power of nutrition
 
 ## Introduction
 ## Installation Guide
